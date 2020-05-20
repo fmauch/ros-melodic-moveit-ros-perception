@@ -56,7 +56,7 @@ depends=(${ros_depends[@]}
 # sha256sums=('8bcc6469b26ee9f06598c3793fc56bae2c4ce71d7a27171ab1ddd591f16dacc5')
 
 # Tarball version (faster download)
-_dir="moveit-${pkgver}/moveit_ros_perception"
+_dir="moveit-${pkgver}/moveit_ros/perception"
 source=("${pkgname}-${pkgver}.tar.gz"::"https://github.com/ros-planning/moveit/archive/${pkgver}.tar.gz")
 sha256sums=('b0ac91cd4c4dc29d9bd5e3885a1a457252495b3f2bedb46ddfe04154f5ac2358')
 
